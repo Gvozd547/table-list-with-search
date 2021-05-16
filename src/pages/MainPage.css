@@ -1,0 +1,32 @@
+body {
+  background: aliceblue;
+}
+
+.link {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.main-page {
+  padding: 0 100px;
+}
+
+.main-page__header {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.main-page__header-filter {
+  flex: none;
+  margin-right: 15px;
+}
+
+.main-page__footer {
+  padding: 20px 0;
+  text-align: end;
+}
