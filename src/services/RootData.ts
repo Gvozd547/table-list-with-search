@@ -7,6 +7,7 @@ const api: AxiosInstance = axios.create({
   timeout: 300 * 1000,
 });
 
+// Proxy to bypass CORS for localhost
 function buildCorsFreeUrl(target: string): string {
   return `https://cors.bridged.cc/${target}`;
 }
