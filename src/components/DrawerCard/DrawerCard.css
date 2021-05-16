@@ -1,0 +1,16 @@
+.drawer-card .ant-drawer-content {
+    background: lightskyblue;
+    color: white;
+}
+
+.drawer-card__description-item {
+    display: flex;
+}
+
+.drawer-card__description-item-content {
+    margin-left: 20px;
+}
+
+.drawer-card__description-item-label {
+    text-decoration: underline;
+}
